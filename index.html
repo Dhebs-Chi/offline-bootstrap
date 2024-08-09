@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <title>Document</title>
+    
+    <style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .container-fluid {
+        padding: 0; /* Remove padding from container-fluid */
+    }
+
+    .row {
+        margin: 0; /* Remove margin from rows */
+    }
+
+    .col-md-3, .col-md-9, .col-md-12, .col-md-4 {
+        padding: 0; /* Remove padding from columns */
+    }
+
+    div {
+        border: 0px solid red;
+    }
+
+    .card {
+        margin: 0; /* Remove margin from card */
+        border-radius: 0; /* Remove border-radius from card */
+    }
+
+    .card-img {
+        width: 100%;
+        height: 600px; /* Adjust height as needed */
+        object-fit: cover; /* Ensure image covers the card area */
+        border-radius: 0; /* Remove border-radius from card image */
+        filter: hue-rotate(0deg) brightness(50%); /* Apply hue rotation and adjust brightness */
+    }
+
+    .card-img-overlay {
+        padding: 0; /* Remove padding from card image overlay */
+    }
+
+    .nav{
+        background-color: #399918;
+       
+        align-items: center;
+    }
+
+
+.nav a {
+    flex: 1; /* Ensure each <a> tag takes up equal height */
+
+    align-items: center; /* Center text vertically inside <a> tags */
+    color: #FF7777; /* Apply text color to all <a> tags */
+    text-decoration: none; /* Remove underline from text */
+}
+
+.end{
+    background-color: #000000;
+    color: whitesmoke;
+}
+
+    </style>
+
+</head>
+<body>
+    
+    <div class="container-fluid">
+        <div class="row nav">
+            <div class="col-md-3">
+                <a href="index.html"> <img src="logo.jfif" height="50px" width="50px"></a>
+            </div>
+            <div class="col-md-9">
+                <a href="index.html" style="margin-right: 50px; text-decoration: none; color: #FF7777">Home</a>
+                <a href="index.html" style="margin-right: 50px; text-decoration: none; color: #FF7777">About</a>
+                <a href="contact.html" style="text-decoration: none; color: #FF7777">Contact</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card text-bg-dark">
+                    <img src="food2.png" class="card-img" alt="food">
+                    <div class="card-img-overlay">
+                      <h5 class="card-title">Lovely Delicacies</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <p class="card-text"><small>Order today</small></p>
+                    </div>
+                  </div>
+            </div>
+       
+        </div>
+        <div class="row end">
+            <div class="col-md-4">
+                <a href="">Facebook</a>
+                <a href="">Instagram</a>
+                <a href="https://wa.me/2347083037092">Whatsapp</a>
+            </div>
+            <div class="col-md-4">
+                All Rights Reserved. &copy;2024 Designed by Deborah
+            </div>
+            <div class="col-md-4">
+               <p>Email: <a href="mailto:mydailyonlinehustle@gmail.com">mydailyonlinehustle@gmail.com</a></p> 
+                <p>Phone Number: <a href="tel:+07083037092">07083037092</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
