@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <style>
+        .nav{
+        background-color: #399918;
+        padding: 0;
+        align-items: center;
+    }
+
+    .end{
+    background-color: #000000;
+    color: whitesmoke;
+}
+
+div{
+    border: 0px solid red;
+}
+    .no-padding-margin {
+            margin: 0 !important;
+            padding: 0 !important;
+}
+    .carousel-item img {
+            max-height: 750px; 
+            object-fit: fill; 
+            width: 100%;
+}
+
+
+    </style>
+</head>
+<body>
+ 
+    <div class="container-fluid no-padding-margin">
+        <div class="row nav">
+                <div class="col-md-3">
+                    <a href="index.html"> <img src="cheflogo.jpg" height="50px" width="50px"></a>
+                </div>
+                <div class="col-md-9">
+                    <a href="index.html" style="margin-right: 50px; text-decoration: none; color: #FF7777">Home</a>
+                    <a href="about.html" style="margin-right: 50px; text-decoration: none; color: #FF7777">About</a>
+                    <a href="contact.html" style="text-decoration: none; color: #FF7777">Contact</a>
+                </div>
+            
+        </div>
+        <div class="row no-padding-margin">
+            <div class="col-md-12 no-padding-margin">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="food.jpg" class="d-block w-100" alt="RoastedChicken">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="peppersoup.png" class="d-block w-100" alt="peppersoup">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="veg soup.png" class="d-block w-100" alt="veg soup">
+                      </div>
+                    </div>
+                  </div>
+            </div>
+</div>
+        
+        
+
+        <div class="row justify-content-left">
+            <div class="col-md-4">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31708.542345692298!2d3.353748110839843!3d6.576101200000021!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b936aec1b8b4f%3A0x123c1748ce23a96a!2sThe%20Place%20Restaurant%2C%20Ogudu!5e0!3m2!1sen!2sng!4v1724438868634!5m2!1sen!2sng" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="col-md-8">
+
+                <h1>Enter your details and order</h1>
+                <div class="mb-3">
+                    <label for="Email Address" class="form-label">Email Address</label>
+                    <input type="email" class="form-control" id="Email Address" placeholder="Enter your email">
+                  </div>
+                  <div class="mb-3">
+                    <label for="your user name" class="form-label">Name</label>
+                    <textarea class="form-control" id="your user name" rows="3" placeholder="enter your name"></textarea>
+                  </div>
+                  <div class="mb-3">
+                    <label for="Contact info" class="form-label">Phone Number</label>
+                    <input type="contact" class="form-control" id="Contact info" placeholder="enter your contact">
+                  </div>
+                  <div class="mb-3">
+                    <label for="food to order" class="form-label">Order</label>
+                    <textarea class="form-control" id="food to order" rows="3"></textarea>
+                  </div>
+                  
+                    <button class="btn btn-primary" type="submit">Submit</button>
+
+            </div>
+        </div>
+        <div class="row end">
+            <div class="col-md-4">
+                <a href="">Facebook</a>
+                <a href="">Instagram</a>
+                <a href="https://wa.me/2347083037092">Whatsapp</a>
+            </div>
+            <div class="col-md-4">
+                All Rights Reserved. &copy;2024 Designed by Deborah
+            </div>
+            <div class="col-md-4">
+               <p>Email: <a href="mailto:mydailyonlinehustle@gmail.com">mydailyonlinehustle@gmail.com</a></p> 
+                <p>Phone Number: <a href="tel:+07083037092">07083037092</a></p>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
